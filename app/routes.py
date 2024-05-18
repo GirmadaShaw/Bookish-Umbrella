@@ -490,11 +490,7 @@ def blob() :
             cropped_img = np.expand_dims(np.expand_dims(cv2.resize(roi_gray, (48, 48)), -1), 0)
             prediction = model.predict(cropped_img)
 
-            print( "Prediction: " , prediction )
-
             maxindex = int(np.argmax(prediction))
-
-            print( "\nMaxIndex: ", maxindex )
             cv2.putText(frame, emotion_dict[maxindex], (x+20, y-60), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 2, cv2.LINE_AA)
 
         cv2.imshow('Video', cv2.resize(frame,(1600,960), interpolation = cv2.INTER_CUBIC))
@@ -534,8 +530,6 @@ def blob() :
 
         if category == given_category :
              recommended_books.append( book )
-
-        print( book.name , ":-\n" , "Polarity : " , round( polarity , 2 )  , "\nSubjectivity: " , round( subjectivity,2)  , "\nCategory:" , category, "\n" )
 
     section_ids = []
     for book in recommended_books:
