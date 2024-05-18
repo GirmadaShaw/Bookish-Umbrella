@@ -32,6 +32,16 @@ You can run this application in 3 simple steps:
 
     python run.py
 
+# FUTURE ENHANCEMENTS 
+
+1. Integration of online APIs, such as Google Books, enables seamless access to a vast array of e-books, enriching the library's digital collection and providing users with an extensive selection of reading materials.
+
+2. Implementation of subscription-based features empowers users to elevate their engagement with the platform, allowing aspiring authors to leverage the platform as a medium for publishing their works. By offering a pathway for users to become authors and publish their books, Bookish Umbrella fosters creativity and promotes literary expression within its community.
+
+3. Authorization for Archivists extends beyond traditional library management tasks, granting them the ability to administer books as financial aids. This innovative feature enables Archivists to support users in need by providing access to books as a form of assistance, thereby fostering inclusivity and expanding access to knowledge within the community. 
+
+4. Implementation of a secure payment infrastructure elevates Bookish Umbrella into a platform for real-world transactions. By integrating payment capabilities, users gain the convenience of purchasing books and services directly through the platform, enhancing their overall experience and fostering a seamless transactional environment.
+
 # Contributing 
 Contributions are welcome! Please feel free to open an issue or submit a pull request.
 
