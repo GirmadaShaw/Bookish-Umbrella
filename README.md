@@ -42,9 +42,9 @@ You can run this application in 3 simple steps:
 
 4. Implementation of a secure payment infrastructure elevates Bookish Umbrella into a platform for real-world transactions. By integrating payment capabilities, users gain the convenience of purchasing books and services directly through the platform, enhancing their overall experience and fostering a seamless transactional environment.
 
-# Contributing 
+# CONTRIBUTION 
 Contributions are welcome! Please feel free to open an issue or submit a pull request.
 
-# License
+# LICENSE
 
 This project is licensed under the [MIT License](LICENSE).
