@@ -511,20 +511,19 @@ def blob() :
         blob = TextBlob( book.content )
 
         polarity = blob.sentiment.polarity
-        subjectivity = blob.sentiment.subjectivity
 
-        
-
-        if polarity <= -0.5:
+        if polarity <= -0.6:
             category = 'Angry'
-        elif -0.5 < polarity <= -0.1 :
+        elif -0.6 < polarity <= -0.34:
             category = 'Disgust'
-        elif -0.1 < polarity < 0.1 :
-            category = 'Happy'
-        elif 0.1 <= polarity <= 0.5 :
+        elif -0.34 < polarity <= -0.15:
+             category = 'Fear'
+        elif -0.15 < polarity < 0 :
             category = 'Sad'
-        elif  polarity >= 0.5 :
-            category = 'Fearful'
+        elif 0.20 <= polarity <= 0.50 :
+            category = 'Surprised'
+        elif  polarity > 0.50 :
+            category = 'Happy'
         else:
             category = 'Neutral'
 
