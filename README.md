@@ -21,17 +21,23 @@ One of the standout features of Bookish Umbrella is its ability to suggest books
 
 You can run this application in 3 simple steps:
 
-1. Clone the Repository 
+1. Clone the Repository
 
+```bash
    git clone https://github.com/GirmadaShaw/Bookish-Umbrella.git
+```
 
-2. Install the required libraries
-      
+3. Install the required libraries
+
+```bash      
       pip install -r requirements.txt
-3. Run the Local Server
+```
 
+4. Run the Local Server
+
+```bash
     python run.py
-
+```
 # FUTURE ENHANCEMENTS 
 
 1. Integration of online APIs, such as Google Books, enables seamless access to a vast array of e-books, enriching the library's digital collection and providing users with an extensive selection of reading materials.
