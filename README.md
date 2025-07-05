@@ -3,6 +3,7 @@
 Welcome to Bookish Umbrella, an innovative solution designed to revolutionize the way libraries are managed and accessed. Bookish Umbrella is more than just a library management system; it's a comprehensive platform that caters to both users and librarians, offering a seamless experience for all stakeholders.
 
 CHECK OUT THE DETAILED BLOG INSTEAD: https://medium.com/@paramveers9451/3-step-guide-to-build-a-mood-based-book-recommendation-system-63118c051e0f
+
 PROJECT DEMO: https://drive.google.com/file/d/1wWYY-LwNUFcaLJatQxeDdft_28yKeoqw/view
 # FEATURES
 
